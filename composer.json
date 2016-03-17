@@ -1,0 +1,22 @@
+{
+    "name": "amitsingh0/php-programming-test",
+    "type": "Test",
+    "description": "Test",
+    "keywords": ["Test"],
+    "homepage": "https://github.com/amitsingh0/",
+    "authors": [
+        {
+            "name": "Amit Singh",
+            "email": "amit.php@gmail.com",
+            "homepage": "https://github.com/amitsingh0/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "wildbit/postmark-php": ">=2.2.0",
+        "mustangostang/spyc": "*"
+    },
+    "autoload": {
+        "psr-4": {"Perk\\": "src/"}
+    }
+}
